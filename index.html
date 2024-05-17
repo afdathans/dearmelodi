@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNTUK MY LOVE</title>
+</head>
+<style>
+    body {
+        padding: 25px;
+        /* background-color: pink; */
+    }
+
+    .title {
+        color: pink;
+    }
+</style>
+
+<body>
+    <!-- audio -->
+    <audio src="Bukti.mp3" autoplay></audio>
+    <!-- gambar -->
+    <img src="bergerak.gif" alt="hati" height="200" style="padding-left: 60px;">
+
+    <h1 style="padding-left: 40px;">Haii beb aku mau ngasi tau something</h1>
+    <!-- button -->
+    <div id="By" style="position: absolute; left: 140px">
+
+        <button type="button" onclick="ShowAlert() "
+            style="background-color: pink; border: none; width: 100px; height: 50px;">Klik
+            Inii</button>
+
+    </div>
+    <!-- link -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- scrip alert -->
+    <script>
+        function ShowAlert() {
+            Swal.fire({
+                title: "Halo Melody",
+                text: "aku ga tau si mo bilng apa",
+                buttons: true,
+            })
+                .then((result) => {
+                    if (result) {
+                        Swal.fire({
+                            text: "tapii pengen ngasi tau doang",
+                            buttons: true,
+                        })
+                            .then((text1) => {
+                                if (text1) {
+                                    Swal.fire({
+                                        text: "semangat yaa!!!",
+                                        buttons: true,
+                                    })
+                                        .then((text1) => {
+                                            if (text1) {
+                                                Swal.fire({
+                                                    text: "dan ini sebenarnya drama kita doang atau emng ada something?",
+                                                    buttons: true,
+                                                })
+                                                    .then((text1) => {
+                                                        if (text1) {
+                                                            Swal.fire({
+                                                                text: "ntarr pacar kmu marah tu kalo tau kita gini wkwkw",
+                                                                buttons: true,
+                                                            })
+                                                                .then((text1) => {
+                                                                    if (text1) {
+                                                                        Swal.fire({
+                                                                            text: "tapi gpp si mudahan kedepannya kita bisa ketemu ya cantikk",
+                                                                            buttons: true,
+                                                                        })
+                                                                            .then((text1) => {
+                                                                                if (text1) {
+                                                                                    Swal.fire({
+                                                                                        text: "dan aku ga bisa kis jdi jngn suruh gitu lagi_- tapi kalo yg lain bisa",
+                                                                                        buttons: true,
+                                                                                    })
+                                                                                        .then((text1) => {
+                                                                                            if (text1) {
+                                                                                                Swal.fire({
+                                                                                                    text: "LOVE YOU more beb",
+                                                                                                    buttons: true,
+                                                                                                })
+                                                                                            }
+                                                                                        })
+                                                                                }
+                                                                            })
+                                                                    }
+                                                                })
+                                                        }
+                                                    })
+                                            }
+
+                                        })
+                                }
+                            })
+                    }
+
+                })
+        }
+    </script>
+</body>
+
+</html>
